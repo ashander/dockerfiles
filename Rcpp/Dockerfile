@@ -12,6 +12,8 @@ RUN apt-get update && \
 RUN install2.r --error \
     -r "https://cran.rstudio.com" \
     devtools \
+    roxygen2 \
+    testthat \
     Rcpp \
     RcppArmadillo \
   && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
