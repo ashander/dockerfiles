@@ -1,4 +1,4 @@
-FROM ashander/phenoecosim:docker-0.1.2
+FROM ashander/phenoecosim:latest
 # includes devtools, rcpp, rcpparmadillo
 
 MAINTAINER Jaime Ashander "jashander@ucdavis.edu"
